@@ -7,12 +7,12 @@ import FeedbackStats from "./components/FeedbackStats";
 import FeedbackForm from "./components/FeedbackForm";
 import AboutPage from "./pages/AboutPage";
 import AboutIconLink from "./components/AboutIconLink";
-import Card from "./components/shared/Card";
+// import Card from "./components/shared/Card";
 import {
   BrowserRouter as Router,
   Route,
   Routes,
-  NavLink,
+  // NavLink,
 } from "react-router-dom";
 
 function App() {
