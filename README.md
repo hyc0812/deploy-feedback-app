@@ -2,7 +2,7 @@
 
 [DemoLink](https://deploy-feedback-app-with-jsv.herokuapp.com/)
 
-<img src="https://github.com/hyc0812/deploy-feedback-app/blob/master/Screenshot/screenshot-02.png" width="300">
+<img src="https://github.com/hyc0812/deploy-feedback-app/blob/master/Screenshot/screenshot-02.png" width="400">
 
 Run it locally:
 
