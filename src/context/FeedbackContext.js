@@ -12,7 +12,7 @@ export const FeedbackProvider = ({ children }) => {
 
   useEffect(() => {
     fetchFeedback();
-  }, []);
+  }, [setFeedbackEdit]);
 
   // Fetch feedback
   const fetchFeedback = async () => {
@@ -35,6 +35,11 @@ export const FeedbackProvider = ({ children }) => {
     const data = await response.json();
 
     setFeedback([data, ...feedback]);
+
+    setFeedbackEdit({
+      item: {},
+      edit: false,
+    });
   };
 
   // Delete feedback
