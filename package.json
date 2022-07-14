@@ -3,13 +3,14 @@
   "homepage": "https://hyc0812.github.io/deploy-feedback-app",
   "version": "0.1.0",
   "private": true,
-  "proxy":"https://my-json-server.typicode.com/hyc0812/deploy-feedback-app-jsonserver",
+  "proxy": "https://my-json-server.typicode.com/hyc0812/deploy-feedback-app-jsonserver",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "concurrently": "^7.2.2",
     "framer-motion": "^6.4.3",
+    "gh-pages": "^4.0.0",
     "json-server": "^0.17.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -20,15 +21,14 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server  --watch db.json --port 5000",
     "dev": "concurrently \"npm run server\" \"npm run start\""
-
   },
   "eslintConfig": {
     "extends": [
