@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/deploy-feedback-app/static/css/main.fa72ae7b.css",
+    "main.js": "/deploy-feedback-app/static/js/main.5bfce63c.js",
+    "static/media/spinner.gif": "/deploy-feedback-app/static/media/spinner.a1a996746e5e48352c81.gif",
+    "index.html": "/deploy-feedback-app/index.html",
+    "main.fa72ae7b.css.map": "/deploy-feedback-app/static/css/main.fa72ae7b.css.map",
+    "main.5bfce63c.js.map": "/deploy-feedback-app/static/js/main.5bfce63c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa72ae7b.css",
+    "static/js/main.5bfce63c.js"
+  ]
+}
