@@ -1,9 +1,8 @@
 {
   "name": "deploy-feedback-app",
-  "homepage": "https://hyc0812.github.io/deploy-feedback-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://my-json-server.typicode.com/hyc0812/deploy-feedback-app-jsonserver",
+  "proxy": "http://localhost:5000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -21,8 +20,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
