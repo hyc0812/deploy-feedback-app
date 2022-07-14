@@ -2,7 +2,7 @@
   "name": "deploy-feedback-app",
   "version": "0.1.0",
   "private": true,
-  "proxy":"http://localhost:5000",
+  "proxy":"https://my-json-server.typicode.com/hyc0812/deploy-feedback-app-jsonserver",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
